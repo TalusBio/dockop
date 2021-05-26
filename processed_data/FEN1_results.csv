@@ -1,0 +1,3 @@
+,Algorithm,Training size,N ligands explored,% top-k found
+0,morgan_feat,1000,1000,0.0027100271002710027
+1,morgan_feat,1000,1000,0.0027100271002710027

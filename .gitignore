@@ -11,6 +11,7 @@ AmpC_screen_table.csv
 table_name_smi_energy_hac_lte_25_title.csv
 4UNN_EnamineHTS_scores.csv
 
+
 !processed_data/morgan.npz
 !morgan_feat_4096_15000_logreg0.1.hdf5
 !*_all_analysis.ipynb
