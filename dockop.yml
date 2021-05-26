@@ -1,23 +1,7 @@
 name: dockop
 channels:
+  - defaults
   - conda-forge
-  - rdkit
 dependencies:
-  - numpy
-  - scipy
-  - pandas
-  - jupyter
+  - python=3.8
   - rdkit
-  - pymc3
-  - altair
-  - matplotlib
-  - hdf5
-  - scikit-learn
-  - tqdm
-  - cython
-  - pip
-  - pip:
-    - n2
-    - bitstring
-    - scikit-network
-    - psutil
