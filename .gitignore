@@ -16,6 +16,7 @@ table_name_smi_energy_hac_lte_25_title.csv
 !morgan_feat_4096_15000_logreg0.1.hdf5
 !*_all_analysis.ipynb
 !*_all_figures.ipynb
+!*_all_generate_embeddings.ipynb
 !*_all_generate_FPs.ipynb
 !*_all_iterative.ipynb
 !*_all_single.ipynb
