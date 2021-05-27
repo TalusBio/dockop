@@ -25,6 +25,7 @@ ipykernel = "^5.5.5"
 altair-viewer = "^0.3.0"
 vega = "^3.4.0"
 python-Levenshtein = "^0.12.2"
+cachetools = "^4.2.2"
 
 [tool.poetry.dev-dependencies]
 

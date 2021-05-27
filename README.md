@@ -28,6 +28,7 @@ Interestingly, simply increasing the size of fingerprints beyond what is commonl
 ![active](./figures/active_learning_percentage.svg)
 
 [2]Graff, David E., Eugene I. Shakhnovich, and Connor W. Coley. "Accelerating high-throughput virtual screening through molecular pool-based active learning." arXiv preprint arXiv:2012.07127 (2020).
+Supporting Data: http://www.rsc.org/suppdata/d0/sc/d0sc06805e/d0sc06805e1.pdf
 
 
 
