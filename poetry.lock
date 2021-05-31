@@ -1569,6 +1569,25 @@ parallel = ["dask"]
 viz = ["matplotlib", "seaborn", "nc-time-axis"]
 
 [[package]]
+name = "xgboost"
+version = "1.4.2"
+description = "XGBoost Python Package"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+numpy = "*"
+scipy = "*"
+
+[package.extras]
+dask = ["dask", "pandas", "distributed"]
+datatable = ["datatable"]
+pandas = ["pandas"]
+plotting = ["graphviz", "matplotlib"]
+scikit-learn = ["scikit-learn"]
+
+[[package]]
 name = "yarl"
 version = "1.6.3"
 description = "Yet another URL library"
@@ -1583,7 +1602,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8,<3.10"
-content-hash = "861b2269a6ab613f546e16f286c29122d831638e30e3989603f24214d06e3b58"
+content-hash = "a7d6b027122bedf02439486ca06bf0696b580df50803fdd0788695b5bedd56f6"
 
 [metadata.files]
 aiohttp = [
@@ -2843,6 +2862,13 @@ widgetsnbextension = [
 xarray = [
     {file = "xarray-0.18.2-py3-none-any.whl", hash = "sha256:a0b14b888b90a3ad8ecec5db9862f3fd02f8c0cc15066a3429d37da62fc37219"},
     {file = "xarray-0.18.2.tar.gz", hash = "sha256:5d2e72a228286fcf60f66e16876bd27629a1a70bf64822c565f16515c4d10284"},
+]
+xgboost = [
+    {file = "xgboost-1.4.2-py3-none-macosx_10_14_x86_64.macosx_10_15_x86_64.macosx_11_0_x86_64.whl", hash = "sha256:e8f1a366a403784afd30a56eb99a429cefc45d906943cd362025ccf942208e13"},
+    {file = "xgboost-1.4.2-py3-none-manylinux2010_x86_64.whl", hash = "sha256:ec3f60d53dcd23273a5c7a495ba0f8205656ce750eb2ce7798726a4b2ef4955a"},
+    {file = "xgboost-1.4.2-py3-none-manylinux2014_aarch64.whl", hash = "sha256:15dd5987827030b3f68e741490a8b3a4ead7c6064bd911e36235b84e0a9d0765"},
+    {file = "xgboost-1.4.2-py3-none-win_amd64.whl", hash = "sha256:7c8973204b2c2362012850605e81de5a180513fc08db36d0da9befb77c3d57c8"},
+    {file = "xgboost-1.4.2.tar.gz", hash = "sha256:5a364c152095824445ac56a83fb7f7e75913b4bb128c2fcd99b85877c9f4f8fe"},
 ]
 yarl = [
     {file = "yarl-1.6.3-cp36-cp36m-macosx_10_14_x86_64.whl", hash = "sha256:0355a701b3998dcd832d0dc47cc5dedf3874f966ac7f870e0f3a6788d802d434"},

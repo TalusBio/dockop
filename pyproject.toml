@@ -27,6 +27,7 @@ vega = "^3.4.0"
 python-Levenshtein = "^0.12.2"
 cachetools = "^4.2.2"
 modAL = "^0.4.1"
+xgboost = "^1.4.2"
 
 [tool.poetry.dev-dependencies]
 
